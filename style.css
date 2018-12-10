@@ -25,11 +25,26 @@
   max-width: 300px;
 }
 #hero {
-  margin-top: 100px;
-  text-align: center;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-#hero input {
-
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#submit-btn {
+  background: #F0C410;
+  font-size: 20px;
+  margin-top: 10px;
+}
+#form input {
+  height: 30px;
+  width: 270px;
 }
 .container {
   max-width: 1000px;
@@ -92,9 +107,16 @@
 #pricing ul {
   padding-right: 40px;
 }
+#select-btn {
+  background: #F0C410;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 110px;
+  font-size: 20px;
+}
 #footer {
   padding-right: 40px;
-  background: #eee;
+  background: #DDDDDD;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -108,7 +130,7 @@
   display: flex;
 }
 #footer-bar ul li {
-  margin: 0 15px;
+  margin-left: 30px;
 }
 #footer p {
   margin-top: 0px;
